@@ -732,8 +732,8 @@ body {
     }
 
     .cricle {
-        top: 285px;
-        left: -5px;
+        top: 240px;
+        left: -70px;
         right: auto;
         display: flex;
         justify-content: center;
@@ -881,8 +881,8 @@ body {
     }
 
     .decorate_star.star4 {
-        bottom: 120px;
-        left: 15px;
+        bottom: 40px;
+        left: 200px;
     }
 
     .decorate_star.star5 {
@@ -904,16 +904,16 @@ body {
     }
 
     .decorate_flower--three {
-        top: 550px;
+        top: 500px;
         left: 20px;
         right: auto;
     }
 
     /* Adjust smiley icon position */
     .smiley__icon {
-        bottom: 35px;
+        bottom: 325px;
         left: auto;
-        right: 90px;
+        right: 25px;
         transform: scale(0);
         animation: scaleCricle 3s 15s forwards ease-in-out;
     }

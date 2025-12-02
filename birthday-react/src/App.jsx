@@ -166,7 +166,6 @@ function App() {
       <div className="decorate_flower--three" style={{ '--t': '15.6s' }}>
         <img width="20" src="/images/decorate_flower.png" alt="" />
       </div>
-
       <div className="decorate_bottom">
         <img src="/images/decorate.png" alt="" width="100" />
       </div>
