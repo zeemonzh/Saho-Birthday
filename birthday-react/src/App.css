@@ -676,9 +676,8 @@ body {
 
     #wrapper {
         width: 100vw;
-        min-height: 100vh;
-        overflow-x: hidden;
-        overflow-y: auto;
+        height: 100vh;
+        overflow: hidden;
     }
 
     .flag__birthday .flag__left {
@@ -697,7 +696,7 @@ body {
         justify-content: center;
         gap: 25px;
         align-items: center;
-        padding-top: 5rem;
+        padding-top: 3rem;
     }
 
     .title {
