@@ -13,7 +13,7 @@ function App() {
   const datetxt = "3 December"
 
   useEffect(() => {
-    // Animate the date text after 12 seconds
+    // Animate the date text after 6 seconds
     let interval
     const timeout = setTimeout(() => {
       let currentIndex = 0
@@ -25,8 +25,8 @@ function App() {
         } else {
           setDateText(datetxt.substring(0, currentIndex))
         }
-      }, 100)
-    }, 12000)
+      }, 80)
+    }, 6000)
 
     // Auto-play music on load
     if (audioRef.current) {
@@ -83,21 +83,21 @@ function App() {
         <div className="left">
           <div className="title">
             <h1 className="happy">
-              <span style={{ '--t': '4s' }}>H</span>
-              <span style={{ '--t': '4.2s' }}>a</span>
-              <span style={{ '--t': '4.4s' }}>p</span>
-              <span style={{ '--t': '4.6s' }}>p</span>
-              <span style={{ '--t': '4.8s' }}>y</span>
+              <span style={{ '--t': '2.5s' }}>H</span>
+              <span style={{ '--t': '2.7s' }}>a</span>
+              <span style={{ '--t': '2.9s' }}>p</span>
+              <span style={{ '--t': '3.1s' }}>p</span>
+              <span style={{ '--t': '3.3s' }}>y</span>
             </h1>
             <h1 className="birthday">
-              <span style={{ '--t': '5s' }}>B</span>
-              <span style={{ '--t': '5.2s' }}>i</span>
-              <span style={{ '--t': '5.4s' }}>r</span>
-              <span style={{ '--t': '5.6s' }}>t</span>
-              <span style={{ '--t': '5.8s' }}>h</span>
-              <span style={{ '--t': '6s' }}>d</span>
-              <span style={{ '--t': '6.2s' }}>a</span>
-              <span style={{ '--t': '6.4s' }}>y</span>
+              <span style={{ '--t': '3.5s' }}>B</span>
+              <span style={{ '--t': '3.7s' }}>i</span>
+              <span style={{ '--t': '3.9s' }}>r</span>
+              <span style={{ '--t': '4.1s' }}>t</span>
+              <span style={{ '--t': '4.3s' }}>h</span>
+              <span style={{ '--t': '4.5s' }}>d</span>
+              <span style={{ '--t': '4.7s' }}>a</span>
+              <span style={{ '--t': '4.9s' }}>y</span>
             </h1>
             <div className="hat">
               <img src="/images/hat.png" alt="" width="130" />
@@ -150,20 +150,20 @@ function App() {
       </div>
 
       {/* Decorative stars */}
-      <div className="decorate_star star1" style={{ '--t': '15s' }}></div>
-      <div className="decorate_star star2" style={{ '--t': '15.2s' }}></div>
-      <div className="decorate_star star3" style={{ '--t': '15.4s' }}></div>
-      <div className="decorate_star star4" style={{ '--t': '15.6s' }}></div>
-      <div className="decorate_star star5" style={{ '--t': '15.8s' }}></div>
+      <div className="decorate_star star1" style={{ '--t': '9.3s' }}></div>
+      <div className="decorate_star star2" style={{ '--t': '9.4s' }}></div>
+      <div className="decorate_star star3" style={{ '--t': '9.5s' }}></div>
+      <div className="decorate_star star4" style={{ '--t': '9.6s' }}></div>
+      <div className="decorate_star star5" style={{ '--t': '9.7s' }}></div>
 
       {/* Decorative flowers */}
-      <div className="decorate_flower--one" style={{ '--t': '15s' }}>
+      <div className="decorate_flower--one" style={{ '--t': '9.3s' }}>
         <img width="20" src="/images/decorate_flower.png" alt="" />
       </div>
-      <div className="decorate_flower--two" style={{ '--t': '15.3s' }}>
+      <div className="decorate_flower--two" style={{ '--t': '9.5s' }}>
         <img width="20" src="/images/decorate_flower.png" alt="" />
       </div>
-      <div className="decorate_flower--three" style={{ '--t': '15.6s' }}>
+      <div className="decorate_flower--three" style={{ '--t': '9.7s' }}>
         <img width="20" src="/images/decorate_flower.png" alt="" />
       </div>
       <div className="decorate_bottom">

@@ -41,7 +41,7 @@ body {
     display: flex;
     justify-content: space-between;
     transform: translateY(-200px);
-    animation: translateYFlag 1.5s 2s forwards;
+    animation: translateYFlag 1.2s 1.5s forwards;
 }
 @keyframes translateYFlag{
     to{
@@ -77,7 +77,7 @@ body {
 }
 .left .btn{
     transform: scale(0);
-    animation: scaleCricle 2s 16s forwards ease-in-out;
+    animation: scaleCricle 2s 9.5s forwards ease-in-out;
 }
 #btn__letter{
     position: relative;
@@ -175,7 +175,7 @@ body {
     top: -500px;
     transform: rotate(-40deg);
     z-index: -1;
-    animation: topHat 4s 7s forwards ease;
+    animation: topHat 2.5s 4s forwards ease;
     opacity: 0;
 }
 @keyframes topHat{
@@ -218,7 +218,7 @@ body {
     height: 50px;
     min-height: 50px;
     background-color: var(--color-black);
-    animation: dateOfBirth 5s 9s forwards;
+    animation: dateOfBirth 2s 5s forwards;
     overflow: hidden;
 }
 @keyframes dateOfBirth{
@@ -267,7 +267,7 @@ body {
 .right .box__account{
     position: relative;
     transform: translateY(700px);
-    animation: topBoxImage 8s 7s forwards ease-in;
+    animation: topBoxImage 5s 4s forwards ease-in;
 }
 @keyframes topBoxImage{
     to{
@@ -297,7 +297,7 @@ body {
     justify-content: center;
     align-items: center;
     transform: scale(0);
-    animation: scaleCricle 3s 15s forwards ease-in-out;
+    animation: scaleCricle 2s 9.5s forwards ease-in-out;
     cursor: pointer;
     transition: transform 0.3s ease;
 }
@@ -411,8 +411,8 @@ body {
     transform: scale(0);
     background-color: var(--color-black);
     clip-path: polygon(0 50%, 35% 35%, 50% 0, 65% 35%, 100% 50%, 65% 65%, 50% 100%, 35% 65%);
-    animation: scaleCricle 3s var(--t) forwards, 
-            scaleStar 2s 16s infinite ease-in-out;
+    animation: scaleCricle 2s var(--t) forwards, 
+            scaleStar 2s 9.5s infinite ease-in-out;
 }
 .decorate_star.star1{
     width: 20px;
@@ -457,7 +457,7 @@ body {
     right: 0;
     bottom: -10px;
     transform: translateY(200px);
-    animation: translateYBottom 1.5s 2s forwards;
+    animation: translateYBottom 1.2s 1.5s forwards;
 }
 @keyframes translateYBottom{
     to{
@@ -469,28 +469,28 @@ body {
     top: 250px;
     left: 50px;
     transform: scale(0);
-    animation: scaleCricle 3s var(--t) forwards ease-in-out;
+    animation: scaleCricle 2s var(--t) forwards ease-in-out;
 }
 .decorate_flower--two{
     position: absolute;
     top: 100px;
     left: 540px;
     transform: scale(0);
-    animation: scaleCricle 3s var(--t) forwards ease-in-out;
+    animation: scaleCricle 2s var(--t) forwards ease-in-out;
 }
 .decorate_flower--three{
     position: absolute;
     top: 150px;
     right: 235px;
     transform: scale(0);
-    animation: scaleCricle 3s var(--t) forwards ease-in-out;
+    animation: scaleCricle 2s var(--t) forwards ease-in-out;
 }
 .smiley__icon{
     position: absolute;
     bottom: 180px;
     left: 600px;
     transform: scale(0);
-    animation: scaleCricle 3s 15s forwards ease-in-out;
+    animation: scaleCricle 2s 9.5s forwards ease-in-out;
 }
 
 
@@ -747,7 +747,7 @@ body {
         justify-content: center;
         align-items: center;
         transform: scale(0);
-        animation: scaleCricle 3s 15s forwards ease-in-out;
+        animation: scaleCricle 2s 9.5s forwards ease-in-out;
         cursor: pointer;
     }
 
@@ -761,7 +761,7 @@ body {
         top: -35px !important;
         transform: rotate(-40deg);
         z-index: -1;
-        animation: topHat 4s 7s forwards ease;
+        animation: topHat 2.5s 4s forwards ease;
     }
 
     .title .hat img {
@@ -923,7 +923,7 @@ body {
         left: auto;
         right: 15px;
         transform: scale(0);
-        animation: scaleCricle 3s 15s forwards ease-in-out;
+        animation: scaleCricle 2s 9.5s forwards ease-in-out;
     }
 
     .smiley__icon img {
@@ -1071,9 +1071,9 @@ body {
     font-size: 25px;
     text-shadow: 0 0 8px #FF7882;
 }
-.boxMail .boxMail-container .card2:hover h3{
-    animation: texth3 3s forwards;
-    animation-delay: 2s;
+.boxMail.active .boxMail-container .card2 h3{
+    animation: texth3 2.5s forwards;
+    animation-delay: 0.75s;
     transition: 1s;
 }
 @keyframes texth3{
@@ -1095,9 +1095,9 @@ body {
     font-size: 22px;
     opacity: 0;
 }
-.boxMail .boxMail-container .card2:hover h2{
-    animation: texth2 2s forwards;
-    animation-delay: 4s;
+.boxMail.active .boxMail-container .card2 h2{
+    animation: texth2 2.5s forwards;
+    animation-delay: 3s;
     transition: 1s;
 }
 @keyframes texth2{
@@ -1115,10 +1115,10 @@ body {
     opacity: 0;
     transition: 1s;
 }
-.boxMail .boxMail-container .card2 .card2-content:hover .imageCute2{
+.boxMail.active .boxMail-container .card2 .card2-content .imageCute2{
     animation: cute3 1s linear infinite,
                 cute4 3s 2s forwards;
-    animation-delay: 2s;
+    animation-delay: 1s;
     transition: 1s;
 }
 @keyframes cute3{
