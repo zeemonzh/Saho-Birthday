@@ -25,9 +25,11 @@ function BirthdayCard({ isOpen, onClose }) {
         </div>
         <div className="card2">
           <div className="card2-content">
-            <h3>To Saho!</h3>
-            <h2>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis aliquam distinctio veritatis tempore pariatur omnis modi provident dolores, quibusdam officia nulla inventore. Eum aliquid repellendus officiis numquam. Odio, possimus non.
+            <h3 style={{ fontSize: '2rem', marginTop: '1rem', marginBottom: '1.5rem' }}>To Saho!</h3>
+            <h2 style={{ textAlign: 'left', textIndent: '0' }}>
+              Happy Birthday! 🎂 You are such a special person and I hope you have the most amazing day celebrating! I wish you all the best for the future and for your time back in Japan 🇯🇵 I truly appreciate all the time we've been able to spend together so far - it's been so much fun! I really hope we can meet again soon after our time in Australia. Until then, enjoy your special day! 🎉💖
+              <br /><br />
+              Much love, Simon 💕
             </h2>
             <div className="imageCute2">
               {/* <img src="cute2.png" alt="" /> */}
