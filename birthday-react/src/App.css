@@ -94,6 +94,7 @@ body {
     justify-content: center;
     cursor: pointer;
     z-index: 2;
+    color: var(--color-black);
     transform: scale(1);
     transition: all .5s ease-in-out;
 }
@@ -112,6 +113,9 @@ body {
 
 #btn__letter:hover i{
     animation: rotateHeart 1s infinite linear;
+}
+#btn__letter .mail{
+    color: inherit;
 }
 @keyframes rotateHeart{
     0%,50%, 100%{
@@ -727,8 +731,12 @@ body {
         justify-content: center;
         cursor: pointer;
         z-index: 2;
-        /* transform: scale(1); */
+        color: var(--color-black);
         transition: all .5s ease-in-out;
+    }
+
+    #btn__letter .mail {
+        color: var(--color-black);
     }
 
     .cricle {
@@ -911,9 +919,9 @@ body {
 
     /* Adjust smiley icon position */
     .smiley__icon {
-        bottom: 325px;
+        bottom: 315px;
         left: auto;
-        right: 25px;
+        right: 15px;
         transform: scale(0);
         animation: scaleCricle 3s 15s forwards ease-in-out;
     }
